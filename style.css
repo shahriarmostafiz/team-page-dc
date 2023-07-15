@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+.header-container {
+  display: flex;
+  padding-top: 9%;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 10%;
+  justify-content: space-around;
+  align-items: center;
+}
+#img-1 {
+  grid-area: img-1;
+}
+#img-2 {
+  grid-area: img-2;
+}
+#img-3 {
+  grid-area: img-3;
+}
+#img-4 {
+  grid-area: img-4;
+}
+#img-5 {
+  grid-area: img-5;
+}
+#img-6 {
+  grid-area: img-6;
+}
+#img-7 {
+  grid-area: img-7;
+}
+#img-8 {
+  grid-area: img-8;
+}
+#img-9 {
+  grid-area: img-9;
+}
+#img-10 {
+  grid-area: img-10;
+}
+#img-11 {
+  grid-area: img-11;
+}
+#img-12 {
+  grid-area: img-12;
+}
+.img-container {
+}
+
+@media screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+}
